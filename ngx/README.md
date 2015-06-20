@@ -5,9 +5,9 @@
 Here is a quick reminder of what you should to to create your own [AngularJS Express](https://github.com/angular-express/angular-express) component:
 
 - Add your code to the `ngx` directory
-- Update the contents of this `_README.md` file
-- Put your name in the `_LICENSE` file or simple replace/remove the file
-- Delete this checklist section of the `_README.md` file
+- Update the contents of this `README.md` file
+- Put your name in the `LICENSE` file or simple replace/remove the file
+- Delete this checklist section of the `README.md` file
 - Push everything to a repository GitHub
 
 Visit the [AngularJS Express](https://github.com/angular-express/angular-express) page for more detailed instructions on how to create your own components.
@@ -28,12 +28,30 @@ No clue what the `ngx` command line tool is? Learn more about [AngularJS Express
 
 ## How to use
 
-Explain how the component works and how it should be used.
+After installing the component:
 
-Documentation is important so please pay extra attention to this.
+- (explain how the component works and how it should be used)
+- (documentation is important so please pay extra attention to this)
 
-Instructions that need to be distributed with the component should be put in the `ngx/_README.md` file.
+and import the component in your Angular application:
+
+```javascript
+// Angular main module
+var ngModule = angular.module('app', []);
+
+// Import component
+import c from 'components/component-name/_build/index';
+
+// Instantiate component
+c(ngModule, options);
+```
 
 ## License
 
-[MIT](_LICENSE)
+[MIT](LICENSE)
+
+## Change log
+
+### v0.1.0
+
+- Initial version
