@@ -43,7 +43,7 @@ var ngModule = angular.module('app', []);
 import c from 'components/component-name/_build/index';
 
 // Instantiate component
-c(ngModule, options);
+c(ngModule, { baseUrl: 'components/component-name' });
 ```
 
 ## Component options
