@@ -14,7 +14,7 @@ Visit the [AngularJS Express](https://github.com/angular-express/angular-express
 
 ## Component title
 
-Summary of the component.
+[AngularJS Express](https://github.com/angular-express/angular-express) component to ...
 
 ## Installation
 
