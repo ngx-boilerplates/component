@@ -46,6 +46,10 @@ import c from 'components/component-name/_build/index';
 c(ngModule, options);
 ```
 
+## Component options
+
+- `baseUrl`: Base URL that component can use to construct links
+
 ## License
 
 [MIT](LICENSE)
